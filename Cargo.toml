@@ -1,0 +1,11 @@
+[package]
+name = "poem-query-extractor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+poem = { version = "3.0", default-features = false }
+serde = "1.0"
+serde_qs = "0.13"
+thiserror = "1.0"
+urlencoding = "2.1"
